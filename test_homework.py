@@ -59,7 +59,7 @@ def test_random_list():
     """
     import random
     # TODO создайте список
-    l = [random.randint(1, 100) for i in range(10)]
+    l = [random.randint(1, 100) for num in range(10)]
     l.sort()
     print(l)
     assert len(l) == 10
