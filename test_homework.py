@@ -89,7 +89,8 @@ def test_dicts():
     first = ["a", "b", "c", "d", "e"]
     second = [1, 2, 3, 4, 5]
     # TODO создайте словарь
-    d = {}
+    d = {"a": 1, "b": 2, "c": 3, "d": 4, "e": 5}
+    print(first, second, d)
 
     assert isinstance(d, dict)
     assert len(d) == 5
